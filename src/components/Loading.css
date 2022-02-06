@@ -1,0 +1,30 @@
+.loading{
+    padding: 10px;
+    display: flex;
+    overflow: hidden;
+    height: 50px;
+    width: 150px;
+    margin: auto;
+}
+
+.loading img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    animation: spin 3s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+.loading p{
+    line-height: 50px;
+    font-size: 20px;
+}
